@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-checkhost",
-  "version": "0.0.0",
+  "name": "@vtian/eslint-plugin-checkhost",
+  "version": "0.0.1",
   "description": "检查域名更换jd.com -> jdl.cn",
   "keywords": [
     "eslint",
