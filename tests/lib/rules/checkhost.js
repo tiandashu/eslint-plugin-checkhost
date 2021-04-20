@@ -37,7 +37,7 @@ ruleTester.run("checkhost", rule, {
         {
             code: `<template><div>thisiswww.jd.com 999</div></template>`,
             errors: [{
-                message: "域名是否切换到jdl.cn，请确认",
+                message: "域名是否切换到jdl.cn，请确认", // 必须和 context.report message保持一致
                 type: "VText"
             }]
         },

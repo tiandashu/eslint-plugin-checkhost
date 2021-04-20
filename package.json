@@ -1,6 +1,6 @@
 {
   "name": "@vtian/eslint-plugin-checkhost",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "检查域名更换jd.com -> jdl.cn",
   "keywords": [
     "eslint",
@@ -10,7 +10,8 @@
   "author": "tianlu21",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "test:checkhost": "mocha tests/lib/rules/checkhost.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0",
